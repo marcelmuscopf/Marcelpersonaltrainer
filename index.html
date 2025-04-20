@@ -23,7 +23,7 @@
       border-bottom: 1px solid #444;
     }
     .logo-top img {
-      max-height: 60px;
+      max-height: 70px;
     }
     header {
       background-image: url('https://github.com/marcelmuscopf/Marcelpersonaltrainer/raw/main/IMG_4093.jpeg');
@@ -62,44 +62,24 @@
       text-align: center;
       padding: 20px;
     }
-    .carousel-container {
-      overflow: hidden;
-      position: relative;
+    .gallery img {
       width: 100%;
-      max-width: 100%;
-    }
-    .carousel {
-      display: flex;
-      gap: 20px;
-      animation: scroll 15s linear infinite;
-    }
-    .carousel img {
-      width: 100%;
-      max-width: 300px;
+      max-width: 400px;
       border-radius: 10px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-      flex-shrink: 0;
-    }
-    @keyframes scroll {
-      0% { transform: translateX(0); }
-      100% { transform: translateX(-100%); }
-    }
-    .testimonials-section {
-      background-color: #f0f4f8;
-      padding: 60px 20px;
-      font-family: 'Playfair Display', serif;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.4);
     }
     .testimonial {
-      background-color: white;
+      background-color: #222;
       border-left: 4px solid #007bff;
       margin-bottom: 25px;
       padding: 20px;
       border-radius: 8px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 5px rgba(0,0,0,0.5);
       display: flex;
       align-items: center;
       gap: 20px;
-      color: #000;
     }
     .testimonial img {
       width: 60px;
@@ -113,15 +93,15 @@
     }
     .testimonial cite {
       font-style: normal;
-      color: #555;
+      color: #aaa;
       font-size: 0.95em;
     }
   </style>
 </head>
 <body>
   <div class="logo-top">
-    <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/logo-horizontal.png" alt="Marcel Personal Trainer logo">
-  </div>
+  <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/logo-bg-banner.png" alt="Marcel Personal Trainer logo with background">
+</div>
 
   <header>
     <h1>Transform Your Body with Science and Personal Attention</h1>
@@ -134,25 +114,49 @@
     <p>My name is Marcel Muscopf. I’m a personal trainer with over 15 years of experience in strength training, biomechanics, and athletic performance. In Brazil, I ran a training center focused on rehabilitation and high-performance fitness. Now in College Station, I offer personalized training for adults, seniors, and athletes seeking real results.</p>
   </section>
 
-  <section>
-    <h2>Services</h2>
-    <ul>
-      <li>✓ Biomechanical Assessments – identify imbalances, improve movement, prevent injuries</li>
-      <li>✓ Private Personal Training (at Helioss Studio)</li>
-      <li>✓ Customized Training for All Levels – beginners, athletes, older adults</li>
-      <li>✓ Online Coaching – available upon request</li>
-    </ul>
-  </section>
-
-  <section class="gallery-section">
-    <h2 style="text-align:center;">Training Moments</h2>
-    <div class="carousel-container">
-      <div class="carousel">
-        <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_10B59368B5B9-1.jpeg" alt="Award Ceremony">
-        <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/a448f31a-4d38-459b-9626-a32b451d62f7.jpeg" alt="Biomechanical Promotion">
-        <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Coach Marcel Portrait">
+  <section class="testimonials-section">
+    <h2 style="text-align:center;">What My Clients Say</h2>
+    <div class="testimonial">
+      <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Regina">
+      <div>
+        <p>“I've been training with Marcel for over 15 years — back in his gym in Brazil. He's an outstanding professional and a truly passionate coach. Wishing him all the best in this new chapter!”</p>
+        <cite>– Regina S.</cite>
       </div>
     </div>
+    <div class="testimonial">
+      <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Amanda">
+      <div>
+        <p>“Training with Marcel was one of the best decisions I’ve made. I feel stronger and more confident every week.”</p>
+        <cite>– Amanda T.</cite>
+      </div>
+    </div>
+    <div class="testimonial">
+      <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Lucas">
+      <div>
+        <p>“Marcel helped me rebuild my posture and regain control over my body after years of poor habits. His biomechanical assessments are incredibly precise, and the training is always adapted to what I need most.”</p>
+        <cite>– Lucas M.</cite>
+      </div>
+    </div>
+    <div class="testimonial">
+      <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Julia">
+      <div>
+        <p>“I used to feel pain every day just doing basic tasks. Marcel didn’t just help me train — he helped me reconnect with my body. Today, I’m pain-free, confident, and even playing sports again. It’s not just fitness, it’s life-changing.”</p>
+        <cite>– Julia N.</cite>
+      </div>
+    </div>
+    <div class="testimonial">
+      <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Carlos">
+      <div>
+        <p>“Precise, motivating, and professional. Marcel is a reference when it comes to personalized training. I recommend him with total confidence.”</p>
+        <cite>– Carlos F.</cite>
+      </div>
+    </div>
+  </section>
+
+  <section class="gallery">
+    <h2 style="text-align:center;">Training Moments</h2>
+    <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_10B59368B5B9-1.jpeg" alt="Award Ceremony">
+    <img src="https://marcelmuscopf.github.io/Marcelpersonaltrainer/IMG_4093.jpeg" alt="Coach Marcel Portrait">
   </section>
 
   <section>
